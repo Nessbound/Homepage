@@ -1,0 +1,251 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background: lavender;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 73vh;
+  font-family: 'Courier New', Courier, monospace;
+  white-space: break-spaces;
+}
+
+body > p {
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+}
+
+span > h2 {
+  margin: 0;
+}
+
+span > p {
+  text-align: center;
+  max-width: 30vw;
+}
+
+footer {
+  width: 100%;
+  font-family: "Impact";
+  display: flex;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+h1 {
+  font-family: 'Comic Sans MS', sans-serif;
+  color: hotpink;
+  font-size: 50pt;
+  margin: 0px 50px 0px 50px;
+}
+
+input[type = range] {
+  accent-color: #b297c2;
+}
+
+input[type = range]::-webkit-slider-thumb {
+  cursor: grab;
+}
+
+input[type = range]::-webkit-slider-thumb:active {
+  cursor: grabbing;
+}
+
+ul > li {
+  font-weight: bolder;
+  font-size: 13pt;
+}
+
+li > ul > li {
+  font-weight: normal;
+  font-size: 11pt;
+}
+
+header > img {
+  width: 200px;
+  height: 200px;
+}
+
+footer > img {
+  width: 2.5vw;
+  height: 5vh;
+  margin-right: 10px;
+}
+
+#contrastGoodra {
+  position: absolute;
+  z-index: 0;
+  -webkit-user-drag: none;
+  width: 25px;
+  height: 25px;
+  pointer-events: none;
+}
+
+#grayscaleGoodra {
+  position: absolute;
+  z-index: 0;
+  -webkit-user-drag: none;
+  width: 25px;
+  height: 25px;
+  pointer-events: none;
+}
+
+#hue-rotateGoodra {
+  position: absolute;
+  z-index: 0;
+  -webkit-user-drag: none;
+  width: 25px;
+  height: 25px;
+  pointer-events: none;
+}
+
+#invertGoodra {
+  position: absolute;
+  z-index: 0;
+  -webkit-user-drag: none;
+  width: 25px;
+  height: 25px;
+  pointer-events: none;
+}
+
+#saturateGoodra {
+  position: absolute;
+  z-index: 0;
+  -webkit-user-drag: none;
+  width: 25px;
+  height: 25px;
+  pointer-events: none;
+}
+
+#sepiaGoodra {
+  position: absolute;
+  z-index: 0;
+  -webkit-user-drag: none;
+  width: 25px;
+  height: 25px;
+  pointer-events: none;
+}
+
+#ApiTestDIV {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+#ApiTestDIV > span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+}
+
+#ApiTestDIV > span > h2 {
+  text-decoration: underline;
+}
+
+#DeviousP {
+  color: white;
+  border: 5px solid aquamarine;
+  background: pink;
+  padding: 5px;
+}
+
+#Goodra {
+  width: 45vw;
+  height: 68vh;
+}
+
+#ImageSpan {
+  display: flex;
+}
+
+#ImageSpan > span {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#ImageSpan > span > span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#ImageSpan > span > span > span {
+  width: 15vw;
+  text-align: center;
+}
+
+#ImageSpan > span > span > label {
+  font-size: 18pt;
+  font-weight: bold;
+}
+
+#Noah {
+  cursor: grab;
+  width: 10%;
+  height: 10%;
+  outline-style: groove;
+  outline-color: plum;
+  outline-width: 5px;
+  transition: 1.5s;
+}
+
+#Noah:hover {
+  filter: hue-rotate(720deg);
+  transform: rotate(360deg);
+}
+
+#PlayzoneBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+#QueenP {
+  color: white;
+  border: 5px solid aquamarine;
+  background: pink;
+  padding: 15px;
+}
+
+#ZombieSlayerJinx {
+  width: 12vw;
+  height: 30vh;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.AppHeader {
+  width: 100vw;
+  background: lavenderblush;
+  margin-bottom: 10px;
+}
+
+.HeaderSpan {
+  display: flex;
+  flex-direction: column;
+}
+
+.HeaderLinksSpan {
+  margin-top: 3vh;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.ListSpan {
+  width: 80vw;
+  display: flex;
+  justify-content: space-evenly;
+}
